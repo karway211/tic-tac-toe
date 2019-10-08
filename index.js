@@ -26,6 +26,7 @@ function render() {
 render();
 
 gameCanvas.addEventListener('click', e => {
+    console.log(e);
     if (!e.target.classList.contains('column')) {
         return;
     }
